@@ -85,9 +85,8 @@ h1, h2, h3, h4, h5, h6 {
 
   header{
     width: 100%;
-    height:600px;
+    height:90px;
     background: linear-gradient(to bottom,
-    rgba(211,135,20, .6),
     rgba(29,241,171, .6),
     rgba(7,109,150, .45)
     ), url(img/fondo.jpg);
@@ -165,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 700px;
   border-radius: 12px;
   position: relative;
-  bottom: -200px;
+  /*bottom: -200px;*/
   background: #fff;
   padding: 30px;
   box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
@@ -175,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 .banner-inner{
   position: relative;
   width: 100%;
-  min-height: 700px;
+  min-height: 600px;
   display: flex;
 }
 
@@ -184,6 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
   align-self: center;
   text-align: left;
+  
 }
 
 .d-flex{
@@ -193,9 +193,10 @@ h1, h2, h3, h4, h5, h6 {
 .media-body{
   vertical-align: middle;
   align-self: center;
+  
 }
 
-.media .media-body .personal_text>h6 {
+.personal_text>h6 {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
@@ -203,14 +204,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   margin-bottom: 12px;
   color: #222222; }
-/*.media-body .personal_text>h4 {
+
+.personal_text>h4 {
   font-size: 16px;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #222222; }
-.media-body .personal_text>h3 {
+.personal_text>h3 {
   font-size: 48px;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -220,30 +222,30 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 540px;
   color: #777777;
   margin-bottom: 40px; }
-.personal_text .basic_info li {
+.basic_info li {
   margin-bottom: 15px; }
-  .personal_text .basic_info li a {
+.basic_info li a {
     position: relative;
     padding-left: 40px;
     font-size: 16px;
     color: #777777; }
-    .personal_text .basic_info li a i {
-      position: absolute;
+.basic_info li a i {
+      position: relative;
       left: 0px;
       top: 50%;
       transform: translateY(-50%);
       font-size: 20px;
       color: #766dff; }
-  .personal_text .basic_info li:last-child {
+.basic_info li:last-child {
     margin-bottom: 0px; }
-.personal_text .personal_social {
+.personal_social {
   margin-top: 45px; }
-  .personal_text .personal_social li {
+.personal_social li {
     display: inline-block;
     margin-right: 7px; }
-    .personal_text .personal_social li:last-child {
+ .personal_social li:last-child {
       margin-right: 0px; }
-    .personal_text .personal_social li a {
+.personal_social li a {
       line-height: 40px;
       width: 40px;
       background: #e8e8e8;
@@ -252,7 +254,7 @@ h1, h2, h3, h4, h5, h6 {
       text-align: center;
       color: #fff;
       font-size: 16px; }
-    .personal_text .personal_social li:hover a {
+.personal_social li:hover a {
       background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
       background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
       background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
