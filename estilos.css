@@ -143,6 +143,8 @@ h1, h2, h3, h4, h5, h6 {
 
   /*Main*/
 
+  /*Home*/
+
   .contenedor{
     margin:auto;
     padding: var(--margenes) 0;
@@ -258,3 +260,75 @@ h1, h2, h3, h4, h5, h6 {
       background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
       background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
       background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+
+/*Acerca de mi y Habilidades*/
+
+.about-skills{
+  background: #eeeeee;
+  margin-left: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.about_img img {
+  margin-top: -30px; }
+
+.about_text h4 {
+  color: #222222;
+  font-family: "Heebo", sans-serif;
+  font-size: 36px;
+  margin-bottom: 18px;
+  text-transform: uppercase; }
+.about_text p {
+  max-width: 495px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 40px; }
+
+.skills-tools{
+  padding: 20px 0px 0px 0px; 
+}
+
+.skill_item {
+  margin-bottom: 18px; }
+
+.skill_item:last-child {
+    margin-bottom: 0px; }
+
+.skill_item>h4 {
+    text-align: none;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #222222;
+    margin-bottom: 15px; }
+
+.progress_br {
+    border: 1px solid #eeeeee;
+    padding: 5px;
+    border-radius: 10px; }
+    
+    .tools_expert .skill_main .skill_item .progress {
+      height: 10px;
+      border-radius: 10px;
+      background: #e8e8e8; }
+      .tools_expert .skill_main .skill_item .progress .progress-bar {
+        width: 0%;
+        transition: width .6s ease;
+        height: 10px;
+        border-radius: 5px;
+        vertical-align: middle;
+        align-self: center;
+        background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+        background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+        background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+
+/*Educacion*/
+
+.educacion{
+  background: #eeeeee;
+  margin-left: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}

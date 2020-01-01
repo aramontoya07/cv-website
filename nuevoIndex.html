@@ -7,8 +7,11 @@
         <title>Página web posta</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="estilos.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-            crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"crossorigin="anonymous">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
     </head>
     <body class="hidden">
         <header>
@@ -28,6 +31,8 @@
             </nav>
         </header>
         <main>
+
+            <!--Home-->
             <section class="home-banner" id="home">
                 <div class="contenedor-banner contenedor">
                     <div class="banner-inner d-flex">
@@ -40,7 +45,7 @@
                                     <h6>Hola, yo soy</h6>
 									<h3>Araceli Montoya</h3>
 									<h4>IT Trainee</h4>
-									<p>Mi pasión es crear y programar. Me encuentro en la búsqueda de una posición part-time que me permita aceptar nuevos desafisos que me ayuden a crecer profesionalmente.</p>
+									<p>Mi pasión es crear y programar. Me encuentro en la búsqueda de una posición part-time que me permita aceptar nuevos desafios que me ayuden a crecer profesionalmente.</p>
 									<ul class="list basic_info">
 										<li><a href="#"><i class="lnr lnr-calendar-full"></i> 7 de Julio de 1994</a></li>
 										<li><a href="#"><i class="lnr lnr-phone-handset"></i> 2355-413150</a></li>
@@ -58,6 +63,108 @@
                     </div>
                 </div>
             </section>
+            <!--Fin de Home-->
+
+            <!--Acerca de mi y Habilidades-->
+            <section class="habilidades">
+                <div class="contenedor">
+                    <div class="about-skills">
+                        <div class="col-lg-6">
+                            <div class="about-text">
+                                <h4>Acerca de mí</h4>
+                                <p>Estoy constantemente aprendiendo y perfeccionando mis habilidades. Soy creativa, proactiva y dedicada, con un enfoque práctico a la hora de solucionar problemas.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="skills-tools">
+                                <div class="skill-main"></div>
+                                    <div class="skill-item">
+                                        <h4>Java<span class="contador">85</span>%</h4>
+                                        <div class="progress-br">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <h4>C<span class="contador">89</span>%</h4>
+                                        <div class="progress-br">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <h4>SQL<span class="contador">70</span>%</h4>
+                                        <div class="progress-br">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <h4>HTML<span class="contador">67</span>%</h4>
+                                        <div class="progress-br">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <h4>CSS<span class="contador">77</span>%</h4>
+                                        <div class="progress-br">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item">
+                                        <h4>Javascript<span class="contador">58</span>%</h4>
+                                        <div class="progress-br">
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="58" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Fin Acerca de mi y habilidades-->
+
+            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+                <div class="contenedor">
+                    <div class="educación">
+                    <h2 class="mb-5">Educación</h2>
+                    <div class="educacion-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="educacion-content">
+                        <h3 class="mb-0">Universidad Tecnológica Nacional FRBA</h3>
+                        <div class="subheading mb-3">Ingeniería en Sistemas de Información</div>
+                        <div>Ciudad Autónoma de Buenos Aires</div>
+                        </div>
+                        <div class="resume-date text-md-right">
+                        <span class="text-primary">Marzo 2013 - Presente</span>
+                        </div>
+                    </div>
+            
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                        <div class="resume-content">
+                        <h3 class="mb-0">Escuela de Educación Media N° 1 "Carlos Pellegrini"</h3>
+                        <div class="subheading mb-3">Bachiller en Economía y Administración</div>
+                        <div>Coronel Martinez de Hoz, Lincoln, Buenos Aires</div>
+                        </div>
+                        <div class="resume-date text-md-right">
+                        <span class="text-primary">Marzo 2007 - Diciembre 2012</span>
+                        </div>
+                    </div>
+            
+                    </div>
+                </div>
+              </section>
+
         </main>
     </body>
 </html>
