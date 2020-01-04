@@ -362,3 +362,13 @@ h1, h2, h3, h4, h5, h6 {
   .resume-item h3, .resume-item .school {
     color: #2c3e50; }
   
+
+    /*Footer*/
+
+    .footer{
+      background: linear-gradient(to bottom,
+    rgba(56, 175, 211, 0.45),
+    rgba(213, 245, 234, 0.6)
+    ), url(img/fondo.jpg);
+    }
+
