@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #222222;
   vertical-align: middle;
   align-self: center;
-  text-align: left;
+  text-align: justify;
   
 }
 
@@ -224,10 +224,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 40px; }
 .basic_info li {
   list-style-type:none;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  margin-top: 20px; }
+  
 .basic_info li a {
     position: relative;
-    padding-left: 20px;
+    padding-left: 2px;
     font-size: 16px;
     color: #777777; }
 .basic_info li a i {
@@ -240,7 +242,8 @@ h1, h2, h3, h4, h5, h6 {
 .basic_info li:last-child {
     margin-bottom: 0px; }
 .personal_social {
-  margin-top: 45px; }
+  margin-top: 45px;
+margin-left: 65px; }
 .personal_social li {
     display: inline-block;
     margin-right: 7px; }
