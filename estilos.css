@@ -225,25 +225,29 @@ h1, h2, h3, h4, h5, h6 {
 .basic_info li {
   list-style-type:none;
   margin-bottom: 15px;
-  margin-top: 20px; }
+  margin-top: 20px;
+   }
   
 .basic_info li a {
     position: relative;
     padding-left: 2px;
     font-size: 16px;
-    color: #777777; }
+    color: #777777;
+    text-decoration: none;
+     }
 .basic_info li a i {
       position: relative;
       left: 0px;
       top: 50%;
       transform: translateY(-50%);
       font-size: 20px;
-      color: #766dff; }
+      color: #46b3e6;
+     }
 .basic_info li:last-child {
     margin-bottom: 0px; }
 .personal_social {
   margin-top: 45px;
-margin-left: 65px; }
+  margin-left: 65px; }
 .personal_social li {
     display: inline-block;
     margin-right: 7px; }
@@ -257,11 +261,11 @@ margin-left: 65px; }
       display: inline-block;
       text-align: center;
       color: #fff;
-      font-size: 16px; }
+      font-size: 25px; }
 .personal_social li:hover a {
-      background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-      background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-      background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+      background-image: -moz-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
+      background-image: -webkit-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
+      background-image: -ms-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%); }
 
 /*Acerca de mi y Habilidades*/
 
