@@ -269,28 +269,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Acerca de mi y Habilidades*/
 
-/*.section-wrapper{
+.section-wrapper{
   background: #eeeeee;
-  margin-left: 40px;
+  margin-left: 175px;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
+  margin-top: 50px;
+  padding-top: 15px;
 }
 
 .about_img img {
-  margin-top: -30px; }*/
-
-.about-me {
-  margin-left: 40px;
-  color: #222222;
-  font-family: "Heebo", sans-serif;
-  font-size: 36px;
-  margin-bottom: 18px;
-  text-transform: uppercase; }
-.about_text p {
-  max-width: 495px;
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 40px; }
+  margin-top: -30px; }
 
 /*.skills-tools{
   padding: 20px 0px 0px 0px; 
@@ -324,6 +314,7 @@ h1, h2, h3, h4, h5, h6 {
         transition: width .6s ease;
         height: 10px;
         border-radius: 5px;
+        color: #eeeeee;
         vertical-align: middle;
         align-self: center; 
         background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
@@ -334,11 +325,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .educacion-section{
   background: #eeeeee;
-  margin-left: 25px;
+  margin-left: 3px;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
   padding-top: 15px;
+  margin-top: -10px;
 }
 
 .educacion-section>h4{
