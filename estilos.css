@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Acerca de mi y Habilidades*/
 
-.about-skills{
+/*.section-wrapper{
   background: #eeeeee;
   margin-left: 40px;
   padding-left: 30px;
@@ -278,9 +278,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about_img img {
-  margin-top: -30px; }
+  margin-top: -30px; }*/
 
-.about_text h4 {
+.about-me {
+  margin-left: 40px;
   color: #222222;
   font-family: "Heebo", sans-serif;
   font-size: 36px;
@@ -291,9 +292,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
   margin-bottom: 40px; }
 
-.skills-tools{
+/*.skills-tools{
   padding: 20px 0px 0px 0px; 
-}
+}*/
 
 .skill_item {
   margin-bottom: 18px; }
@@ -314,31 +315,34 @@ h1, h2, h3, h4, h5, h6 {
     padding: 5px;
     border-radius: 10px; }
     
-    .tools_expert .skill_main .skill_item .progress {
+.skill_item .progress {
       height: 10px;
       border-radius: 10px;
       background: #e8e8e8; }
-      .tools_expert .skill_main .skill_item .progress .progress-bar {
+.progress .progress-bar {
         width: 0%;
         transition: width .6s ease;
         height: 10px;
         border-radius: 5px;
         vertical-align: middle;
-        align-self: center;
-        background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+        align-self: center; 
+        background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+        background-image: -webkit-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+        background-image: -ms-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);  }
 
 /*Educacion*/
 
-
-
 .educacion-section{
   background: #eeeeee;
-  margin-left: 40px;
+  margin-left: 25px;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+.educacion-section>h4{
+  font-size: 30px;
 }
 
 .resume-item {
