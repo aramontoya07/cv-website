@@ -98,9 +98,9 @@ h6 {
 header {
   width: 100%;
   height: 80px;
-  background: linear-gradient(to bottom,
-      rgba(56, 175, 211, 0.45),
-      rgba(213, 245, 234, 0.6));
+  background-image: -moz-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
+  background-image: -webkit-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
+  background-image: -ms-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -116,7 +116,7 @@ nav {
 .nav1 {
   background: transparent;
   height: 80px;
-  color: #fff;
+  color: transparent;
 }
 
 .nav2 {
@@ -144,7 +144,7 @@ nav .enlaces a {
   font-weight: 300;
   text-decoration: none;
   border-bottom: 3px solid transparent;
-  color: inherit;
+  color: #222222;
 }
 
 nav .enlaces a:hover {
@@ -165,17 +165,18 @@ nav .enlaces a:hover {
   overflow: hidden;
 }
 
-.home_banner_area {
+.home-banner {
   position: relative;
   z-index: 1;
-  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  margin-bottom: 200px;
+  background-image: -moz-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
+  background-image: -webkit-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
+  background-image: -ms-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
+  padding: 30px;
 }
 
 .contenedor-banner {
   min-height: 700px;
+  margin-bottom: 30px;
   border-radius: 12px;
   position: relative;
   /*bottom: -200px;*/
