@@ -469,3 +469,9 @@ nav .enlaces a:hover {
 .footer .iconos-footer {
   font-size: 30px;
 }
+
+.footer .icons-credit{
+  font-size: 9px;
+  text-align: right;
+  
+}
