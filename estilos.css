@@ -121,7 +121,7 @@ nav {
 
 .nav2 {
   background: var(--fondo);
-  height: 100px;
+  height: 90px;
   color: #000;
 }
 
@@ -367,7 +367,7 @@ nav .enlaces a:hover {
 
 /*Educacion*/
 
-.educacion{
+.educacion {
   margin-top: 50px;
   background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
   background-image: -webkit-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
@@ -429,7 +429,7 @@ nav .enlaces a:hover {
 
 /*Intereses*/
 
-.hobbies-section{
+.hobbies-section {
   background: #eeeeee;
   margin-left: 4px;
   padding-left: 30px;
@@ -437,19 +437,19 @@ nav .enlaces a:hover {
   padding-bottom: 30px;
   margin-top: -10px;
   padding-top: 15px;
-  
+
 }
 
-.hobbies{
+.hobbies {
   position: center;
   background: #fff;
 }
 
-.hobbies .row{
+.hobbies .row {
   position: center;
 }
 
-.box-hobbies{
+.box-hobbies {
   margin-bottom: 15px;
   margin-right: 100px;
   margin-top: 18px;
@@ -467,11 +467,12 @@ nav .enlaces a:hover {
 }
 
 .footer .iconos-footer {
-  font-size: 30px;
+  font-size: 40px;
+  margin-top: 20px;
 }
 
-.footer .icons-credit{
+.footer .icons-credit {
   font-size: 9px;
   text-align: right;
-  
+
 }
