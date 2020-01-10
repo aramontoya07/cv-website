@@ -386,6 +386,7 @@ nav .enlaces a:hover {
 
 .educacion-section>h4 {
   font-size: 30px;
+  font-family: "Roboto", sans-serif;
 }
 
 .resume-item {
@@ -395,9 +396,11 @@ nav .enlaces a:hover {
   -o-transition: .3s all ease;
   transition: .3s all ease;
   border: 4px solid transparent;
+  font-family: "Roboto", sans-serif;
 }
 
 .resume-item>h4 {
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
 
@@ -415,16 +418,19 @@ nav .enlaces a:hover {
   letter-spacing: .1em;
   color: #b3bdc6;
   text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
 }
 
 .resume-item .school {
   display: block;
   font-size: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 .resume-item h3,
 .resume-item .school {
   color: #2c3e50;
+  font-family: "Roboto", sans-serif;
 }
 
 /*Intereses*/
@@ -454,6 +460,8 @@ nav .enlaces a:hover {
   margin-right: 100px;
   margin-top: 18px;
   margin-left: 75px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
 
 
