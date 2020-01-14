@@ -179,7 +179,6 @@ nav .enlaces a:hover {
   margin-bottom: 30px;
   border-radius: 12px;
   position: relative;
-  /*bottom: -200px;*/
   background: #fff;
   padding: 30px;
   box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
@@ -315,41 +314,12 @@ nav .enlaces a:hover {
   box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
 }
 
-.about_img img {
-  margin-top: -30px;
+.progress-item{
+  margin-top: 10px;
 }
 
-/*.skills-tools{
-  padding: 20px 0px 0px 0px; 
-}*/
-
-.skill_item {
-  margin-bottom: 18px;
-}
-
-.skill_item:last-child {
-  margin-bottom: 0px;
-}
-
-.skill_item>h4 {
-  text-align: none;
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: #222222;
-  margin-bottom: 15px;
-}
-
-.progress_br {
-  border: 1px solid #eeeeee;
-  padding: 5px;
-  border-radius: 10px;
-}
-
-.skill_item .progress {
-  height: 10px;
-  border-radius: 10px;
-  background: #e8e8e8;
+.progress-item .progress-title{
+  text-align: right;
 }
 
 .progress .progress-bar {
@@ -363,6 +333,10 @@ nav .enlaces a:hover {
   background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
   background-image: -webkit-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
   background-image: -ms-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+}
+
+.progress-item .progress-title{
+  text-align: justify;
 }
 
 /*Educacion*/
@@ -463,8 +437,6 @@ nav .enlaces a:hover {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
-
-
 
 /*Footer*/
 
