@@ -1,2 +1,2 @@
 # cv-website
-Curriculum vitae en HTML, CSS y Javscript
+Curriculum vitae para practicar con HTML, CSS y Javscript
