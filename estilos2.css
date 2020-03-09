@@ -186,23 +186,24 @@
 
 .intereses .hobbies-section {
     background-color: #eeeeee;
-    padding-bottom: 15px;
-    padding-top: 15px; 
     text-align: center;
+    padding-bottom: 30px;
+    padding-top: 15px; 
     margin-bottom: 15px;
-    
+    padding-right: 30px;
+    padding-left: 30px;
   }
 
   .hobbies-section .hobbies{
       text-align: center;
-      padding-top: 10px;    
+      padding-top: 20px;
+      padding-bottom: 20px;  
+      background-color: #ffffff;  
   }
 
   .row {
-      
       text-align: center;
-      width: inherit;
-      
+      width: inherit;  
   }
   .box-hobbies {    
     font-family: "Roboto", sans-serif;
