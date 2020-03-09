@@ -176,6 +176,38 @@
     overflow: hidden;
   }
   
+  /*Intereses*/
+
+.intereses{
+      background-color: #ffffff;
+      padding-bottom: 20px;
+      padding-top: 20px;
+  }
+
+.intereses .hobbies-section {
+    background-color: #eeeeee;
+    padding-bottom: 15px;
+    padding-top: 15px; 
+    text-align: center;
+    margin-bottom: 15px;
+    
+  }
+
+  .hobbies-section .hobbies{
+      text-align: center;
+      padding-top: 10px;    
+  }
+
+  .row {
+      
+      text-align: center;
+      width: inherit;
+      
+  }
+  .box-hobbies {    
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
   
   /*Footer*/
   
@@ -183,20 +215,18 @@
     background: linear-gradient(to bottom,
         rgba(56, 175, 211, 0.45),
         rgba(213, 245, 234, 0.6));
-    height: 150px;
+    
   }
  .container .footer-inner {
        text-align: center;
-       border-top: 40px;
+       padding-top: 40px;
   }
 
   .footer .iconos-footer {
     font-size: 40px;
-    
   }
   
   .footer .icons-credit {
     font-size: 9px;
     text-align: right;
-  
   }
