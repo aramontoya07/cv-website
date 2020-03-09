@@ -175,10 +175,55 @@
     text-align: center;
     overflow: hidden;
   }
+
+  /*Acerca de mi y Habilidades*/
+
+.section-wrapper {
+    background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+    background-image: -webkit-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+    background-image: -ms-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);    
+    margin-top: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+.section-wrapper .container {
+    background-color: #ffffff;
+    border: 4px solid #38AFD3;
+}
+  .section-wrapper .row {
+    
+    padding-bottom: 30px; 
+    padding-top: 15px;
+  }
+  
+  .progress-item{
+    margin-top: 10px;
+  }
+  
+  .progress-item .progress-title{
+    text-align: right;
+  }
+  
+  .progress .progress-bar {
+    width: 0%;
+    transition: width .6s ease;
+    height: 10px;
+    border-radius: 5px;
+    color: #eeeeee;
+    vertical-align: middle;
+    align-self: center;
+    background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+    background-image: -webkit-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+    background-image: -ms-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+  }
+  
+  .progress-item .progress-title{
+    text-align: justify;
+  }
   /*Educacion*/
 
 .educacion {
-    margin-top: 50px;
+    
     background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
     background-image: -webkit-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
     background-image: -ms-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
@@ -249,9 +294,13 @@
   /*Intereses*/
 
 .intereses{
-      background-color: #ffffff;
-      padding-bottom: 20px;
-      padding-top: 20px;
+     
+    background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+    background-image: -webkit-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+    background-image: -ms-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+    padding-bottom: 20px;
+    padding-top: 20px;
+      
   }
 
 .intereses .hobbies-section {
@@ -286,6 +335,7 @@
     background: linear-gradient(to bottom,
         rgba(56, 175, 211, 0.45),
         rgba(213, 245, 234, 0.6));
+        border-top: 4px solid #38AFD3;
     
   }
  .container .footer-inner {
