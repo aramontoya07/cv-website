@@ -32,6 +32,22 @@ h6 {
   font-weight: bold;
 }
 
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@media (min-width: 1620px) {
+  .box_1620 {
+    max-width: 1620px;
+    margin: auto;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
 /*Preloader*/
 
 .hidden {
@@ -98,9 +114,9 @@ h6 {
 header {
   width: 100%;
   height: 80px;
-  background-image: -moz-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
-  background-image: -webkit-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
-  background-image: -ms-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
+  background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+  background-image: -webkit-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+  background-image: -ms-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -165,17 +181,18 @@ nav .enlaces a:hover {
   overflow: hidden;
 }
 
-.home-banner {
+.profile-area {
   position: relative;
   z-index: 1;
-  background-image: -moz-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
-  background-image: -webkit-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
-  background-image: -ms-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
+  background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+  background-image: -webkit-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+  background-image: -ms-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
   padding: 30px;
+  padding-top: 50px;
 }
 
-.contenedor-banner {
-  min-height: 700px;
+.profile-area .profile {
+  min-height: 600px;
   margin-bottom: 30px;
   border-radius: 12px;
   position: relative;
@@ -185,10 +202,9 @@ nav .enlaces a:hover {
   overflow: hidden;
 }
 
-.banner-inner {
+.image {
   position: relative;
   width: 100%;
-  min-height: 600px;
   display: flex;
 }
 
@@ -197,18 +213,21 @@ nav .enlaces a:hover {
   vertical-align: middle;
   align-self: center;
   text-align: justify;
+  padding-left: 90px;
 
 }
 
-.d-flex {
-  padding-right: 70px;
-}
-
-.media-body {
+.profile .profile-inner {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  color: #222222;
   vertical-align: middle;
   align-self: center;
-
+  text-align: justify;
 }
+
 
 .personal_text>h6 {
   font-size: 14px;
@@ -272,7 +291,6 @@ nav .enlaces a:hover {
 
 .personal_social {
   margin-top: 45px;
-  margin-left: 65px;
 }
 
 .personal_social li {
@@ -301,24 +319,35 @@ nav .enlaces a:hover {
   background-image: -ms-linear-gradient(0deg, #bbded6 0%, #8ac6d1 100%);
 }
 
+/* End Home Banner Area css
+============================================================================================ */
+
 /*Acerca de mi y Habilidades*/
 
 .section-wrapper {
-  background: #fff;
-  margin-left: 175px;
-  padding-left: 30px;
-  padding-right: 30px;
+  background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+  background-image: -webkit-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+  background-image: -ms-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
   padding-bottom: 30px;
-  margin-top: 50px;
-  padding-top: 15px;
-  box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+  /*padding-top: 30px;*/
 }
 
-.progress-item{
+.section-wrapper .container {
+  background-color: #ffffff;
+  border: 4px solid #38AFD3;
+}
+
+.section-wrapper .row {
+
+  padding-bottom: 30px;
+  padding-top: 15px;
+}
+
+.progress-item {
   margin-top: 10px;
 }
 
-.progress-item .progress-title{
+.progress-item .progress-title {
   text-align: right;
 }
 
@@ -335,17 +364,19 @@ nav .enlaces a:hover {
   background-image: -ms-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
 }
 
-.progress-item .progress-title{
+.progress-item .progress-title {
   text-align: justify;
 }
 
 /*Educacion*/
 
 .educacion {
-  margin-top: 50px;
+
   background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
   background-image: -webkit-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
   background-image: -ms-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .educacion-section {
@@ -356,6 +387,7 @@ nav .enlaces a:hover {
   padding-bottom: 30px;
   padding-top: 15px;
   margin-top: -10px;
+  text-align: center;
 }
 
 .educacion-section>h4 {
@@ -409,31 +441,39 @@ nav .enlaces a:hover {
 
 /*Intereses*/
 
-.hobbies-section {
-  background: #eeeeee;
-  margin-left: 4px;
-  padding-left: 30px;
-  padding-right: 30px;
+.intereses {
+
+  background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+  background-image: -webkit-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+  background-image: -ms-linear-gradient(0deg, #8ac6d1 0%, #bbded6 100%);
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+}
+
+.intereses .hobbies-section {
+  background-color: #eeeeee;
+  text-align: center;
   padding-bottom: 30px;
-  margin-top: -10px;
   padding-top: 15px;
-
+  margin-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
-.hobbies {
-  position: center;
-  background: #fff;
+.hobbies-section .hobbies {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ffffff;
 }
 
-.hobbies .row {
-  position: center;
+.row {
+  text-align: center;
+  width: inherit;
 }
 
 .box-hobbies {
-  margin-bottom: 15px;
-  margin-right: 100px;
-  margin-top: 18px;
-  margin-left: 65px;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
@@ -444,15 +484,53 @@ nav .enlaces a:hover {
   background: linear-gradient(to bottom,
       rgba(56, 175, 211, 0.45),
       rgba(213, 245, 234, 0.6));
+  border-top: 4px solid #38AFD3;
+
+}
+
+.container .footer-inner {
+  text-align: center;
+  padding-top: 40px;
 }
 
 .footer .iconos-footer {
   font-size: 40px;
-  margin-top: 20px;
 }
 
 .footer .icons-credit {
   font-size: 9px;
   text-align: right;
+}
 
+/*Nav responsive*/
+
+@media screen and (max-width: 700px){
+  .nav2{
+    color: #fff;
+  }
+  .icono{
+    display: block;
+    cursor: pointer;
+  }
+  .enlaces{
+    position: fixed;
+    top: 80px;
+    background: #2c3e50;
+    left: 0;
+    height: 100%;
+    transition: 1s;
+    width: 0;
+    overflow: hidden;
+    
+  }
+
+  .enlaces a{
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+    background: #34495e;
+    color: #ffffff;
+  }
 }
