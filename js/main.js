@@ -22,9 +22,11 @@ function menus(){
 }
 
 function apertura(){
+    
     if(cerrado){
         menu.style.width = '70vw';
         cerrado = false;
+        
     }else{
         menu.style.width = '0%';
         menu.style.overflow = hidden;
