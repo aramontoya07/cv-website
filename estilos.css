@@ -359,9 +359,9 @@ nav .enlaces a:hover {
   color: #eeeeee;
   vertical-align: middle;
   align-self: center;
-  background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #e5e7cc 100%);
-  background-image: -webkit-linear-gradient(0deg, #8ac6d1 0%, #e5e7cc 100%);
-  background-image: -ms-linear-gradient(0deg, #8ac6d1 0%, #e5e7cc 100%);
+  background-image: -moz-linear-gradient(0deg, #8ac6d1 0%, #afbfe2 100%);
+  background-image: -webkit-linear-gradient(0deg, #8ac6d1 0%, #afbfe2 100%);
+  background-image: -ms-linear-gradient(0deg, #8ac6d1 0%, #afbfe2 100%);
 }
 
 .progress-item .progress-title {
