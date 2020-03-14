@@ -17,7 +17,7 @@ function menus(){
         nav.classList.remove('nav1');
         nav.className = ('nav2');
         nav.style.transition = '1s';
-        nav.style.color = '#000';
+        nav.style.color = '#000000';
     }
 }
 
