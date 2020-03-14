@@ -197,7 +197,7 @@ nav .enlaces a:hover {
   border-radius: 12px;
   position: relative;
   background: #fff;
-  padding: 30px;
+  padding: 40px;
   box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
   overflow: hidden;
 }
@@ -213,7 +213,7 @@ nav .enlaces a:hover {
   vertical-align: middle;
   align-self: center;
   text-align: justify;
-  padding-left: 90px;
+  /*padding-left: 90px;*/
 
 }
 
